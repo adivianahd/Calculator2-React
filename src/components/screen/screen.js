@@ -4,10 +4,11 @@ import './screen.css';
 
 function Screen(props) {
   return (
-    <div  className="flex-container">
-      <h1>{props.n1}</h1>
-      <h1>{props.n2}</h1>
+    <div align="center">
+      <h1>{+props.n1}</h1>
+      <h1>{+props.n2}</h1>
       <h1>{props.op}</h1>
+      <h1>{props.rs}</h1>
     </div>
   )
 }
